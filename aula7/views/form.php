@@ -1,5 +1,5 @@
 <h1>User data</h1>
-<form action="">
+<form method="post" action="?page=table">
     <label for="name">Name: </label>
     <input type="text" name="name" id="name"><br><br>
 
@@ -16,7 +16,7 @@
     <input type="date" name="birthday" id="birthday"><br><br>
 
     <label for="birthday-time">Birth time: </label>
-    <input type="hour" name="birthday-time" id="birthday-time"><br><br>
+    <input type="time" name="birthday-time" id="birthday-time"><br><br>
 
     <label for="gender">Gender: </label>
     <select name="gender" id="gender">
